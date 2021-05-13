@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body, button, input{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:  rgba(131,58,180,.7);
+}
+
+.content{
+  width: 500px;
+  background: lightblue;
+  margin: 100px auto;
+  padding: 30px 40px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+h1{
+  font-family: 'Acme', sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.div1{
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div1 input{
+  border-radius: 5px;
+  background: lightslategray;
+  width: 70%;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input::placeholder{
+  color: white;
+  font-size: 18px;
+}
+
+.div1 button{
+  padding: 10px;
+  margin-left: 0;
+  background: rgb(66, 66, 92);
+  color: #fff;
+  border-radius: 34px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.div1 button:hover{
+  background: lightslategray;
+}
+.div2{
+  margin-top: 32px;
+  width: 70%;
+}
+
+ul{
+  margin-top: 16px;
+}
+
+li{
+  list-style: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+a{
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
