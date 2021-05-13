@@ -1,1 +1,1 @@
-# lista_de_tarefas
+Lista de tarefas usando HTML, CSS e JS. É possivel adicionar e excluir tarefas
